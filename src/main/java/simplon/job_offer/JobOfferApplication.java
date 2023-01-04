@@ -30,51 +30,51 @@ public class JobOfferApplication {
 	@Bean
 	CommandLineRunner commandLineRunner(RecruiterService recruiterService){
 		return args -> {
-//			OfferServiceImp.addOffer(
-//					new Offers(
-//							1,
-//							"Developer Java",
-//							"raanddommdmdmdmmdk",
-//							"Developer Java",
-//							"rabat",
-//							"Bac + 5",
-//							5000,
-//							OfferStatus.UNPUBLISHED,
-//							new Recruiter(
-//									1,
-//									"zk@gmail.com",
-//									passwordEncoder.bCryptPasswordEncoder().encode("katlife"),
-//									"0631703116",
-//									"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcomicbook.com%2Fgaming%2Fnews%2Fleague-of-legends-yasuo-origins%2F&psig=AOvVaw3ZLFuDeULVFofHlnOSDCcN&ust=1672413657822000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJia9MGQn_wCFQAAAAAdAAAAABAJ",
-//									"RECRUITER",
-//									null
-//							)
-//
-//					)
-//			);
-//
-//			offersServiceImp.addOffer(
-//					new Offers(
-//							2,
-//							"Developer js",
-//							"raanddommdmdmdmmdk",
-//							"Developer js",
-//							"rabat",
-//							"Bac + 2",
-//							5000,
-//							OfferStatus.UNPUBLISHED,
-//							new Recruiter(
-//									2,
-//									"tj@gmail.com",
-//									passwordEncoder.bCryptPasswordEncoder().encode("katlife"),
-//									"0631703116",
-//									"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcomicbook.com%2Fgaming%2Fnews%2Fleague-of-legends-yasuo-origins%2F&psig=AOvVaw3ZLFuDeULVFofHlnOSDCcN&ust=1672413657822000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJia9MGQn_wCFQAAAAAdAAAAABAJ",
-//									"RECRUITER",
-//									null
-//							)
-//
-//					)
-//			);
+			offersServiceImp.addOffer(
+					new Offers(
+							1,
+							"Developer Java",
+							"raanddommdmdmdmmdk",
+							"Developer Java",
+							"rabat",
+							"Bac + 5",
+							5000,
+							OfferStatus.UNPUBLISHED,
+							new Recruiter(
+									1,
+									"zk@gmail.com",
+									passwordEncoder.bCryptPasswordEncoder().encode("katlife"),
+									"0631703116",
+									"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcomicbook.com%2Fgaming%2Fnews%2Fleague-of-legends-yasuo-origins%2F&psig=AOvVaw3ZLFuDeULVFofHlnOSDCcN&ust=1672413657822000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJia9MGQn_wCFQAAAAAdAAAAABAJ",
+									"RECRUITER",
+									null
+							)
+
+					)
+			);
+
+			offersServiceImp.addOffer(
+					new Offers(
+							2,
+							"Developer js",
+							"raanddommdmdmdmmdk",
+							"Developer js",
+							"rabat",
+							"Bac + 2",
+							5000,
+							OfferStatus.UNPUBLISHED,
+							new Recruiter(
+									2,
+									"tj@gmail.com",
+									passwordEncoder.bCryptPasswordEncoder().encode("katlife"),
+									"0631703116",
+									"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcomicbook.com%2Fgaming%2Fnews%2Fleague-of-legends-yasuo-origins%2F&psig=AOvVaw3ZLFuDeULVFofHlnOSDCcN&ust=1672413657822000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJia9MGQn_wCFQAAAAAdAAAAABAJ",
+									"RECRUITER",
+									null
+							)
+
+					)
+			);
 
 			agentServiceImp.addAgents(
 					new Agent(
